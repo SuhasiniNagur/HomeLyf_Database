@@ -4,7 +4,7 @@
 	<listeners>
 <listener class-name="com.Listeners.TestListeners"/>
 </listeners>
-  <test thread-count="2" name="Test">
+  <test thread-count="1" name="Test">
     <classes>
       <class name="com.DBTest.DemoTest"/>
     </classes>

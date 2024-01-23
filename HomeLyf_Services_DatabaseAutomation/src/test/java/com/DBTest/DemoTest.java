@@ -36,7 +36,7 @@ public class DemoTest extends DbBaseClass{
 		 log.info("Get Multiple Users user method execuuted successfully");
 	}
 	
-//	@Test
+	@Test
 	public  void insertmultiUSer() {
 
 		List<Document> documentsToInsert = Arrays.asList(
@@ -50,7 +50,7 @@ public class DemoTest extends DbBaseClass{
         log.info("Insert Multiple users method execuuted successfully");
     }
 	
-//	@Test
+	@Test
 	public void updateMultipedata() {
 		List<String> usersToUpdate = Arrays.asList("user1@gmail.com", "user2@gmail.com", "user3@gmail.com");
 		method.updateAll(usersToUpdate, "active");
@@ -58,7 +58,7 @@ public class DemoTest extends DbBaseClass{
 	}
 	
 	
-//	@Test
+	@Test
 	public void deletemultiuser() {
 		List<String> usersToDelete = Arrays.asList("kaveri@gmail.com", "sanvi@gmail.com", "mona@gmail.com");
 		method.deleteAll(usersToDelete);
