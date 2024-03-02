@@ -5,8 +5,13 @@
     <classes>
       <class name="com.DBTest.DemoTest">
         <methods>
+          <include name="getmultipleusers"/>
+          <include name="deletemultiuser"/>
           <include name="closeDbConnection"/>
-          <include name="main"/>
+          <include name="insertmultiUSer"/>
+          <include name="systemInfo"/>
+          <include name="getSingleusers"/>
+          <include name="updateMultipedata"/>
         </methods>
       </class> <!-- com.DBTest.DemoTest -->
     </classes>
